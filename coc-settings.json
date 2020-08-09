@@ -1,0 +1,44 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "python",
+    "go",
+    "json",
+    "haskell",
+    "elixir",
+    "vue",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "snippets.extends": {
+    "javascriptreact": ["javascript"],
+    "typescript": ["javascript"]
+  },
+  "prettier.eslintIntegration": true,
+  "eslint.enable": true,
+  "eslint.autoFix": true,
+  "eslint.filetypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "go.disable": { "workspaceFolders": false },
+  "languageserver": {
+    "haskell": {
+      "command": "haskell-language-server-wrapper",
+      "args": ["--lsp"],
+      "rootPatterns": [
+        "*.cabal",
+        "stack.yaml",
+        "cabal.project",
+        "package.yaml"
+      ],
+      "filetypes": ["hs", "lhs", "haskell"],
+      "initializationOptions": {
+        "haskell": {}
+      }
+    }
+  }
+}
