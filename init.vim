@@ -14,3 +14,4 @@ source $HOME/.config/nvim/plugin-config/airline.vim
 source $HOME/.config/nvim/plugin-config/ctrlp.vim
 source $HOME/.config/nvim/plugin-config/coc.vim
 source $HOME/.config/nvim/plugin-config/floaterm.vim
+source $HOME/.config/nvim/plugin-config/comfortable-motion.vim

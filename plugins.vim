@@ -22,4 +22,5 @@ Plug 'tpope/vim-commentary'
 Plug 'voldikss/vim-floaterm'
 
 Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
+Plug 'yuttie/comfortable-motion.vim'
 call plug#end()
