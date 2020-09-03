@@ -16,7 +16,6 @@ let g:coc_global_extensions = [
       \'coc-tsserver',
       \'coc-tslint-plugin',
       \'coc-vetur',
-      \'coc-svelte',
       \'coc-reason',
       \'coc-sh',
       \'coc-java',
