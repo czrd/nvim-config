@@ -9,12 +9,11 @@
     "javascript",
     "javascriptreact",
     "typescript",
-    "typescriptreact"
+    "typescriptreact",
+    "svelte",
+    "html"
   ],
-  "snippets.extends": {
-    "javascriptreact": ["javascript"],
-    "typescript": ["javascript"]
-  },
+  "snippets.autoTrigger": true,
   "prettier.eslintIntegration": true,
   "eslint.enable": true,
   "eslint.autoFix": true,
@@ -33,9 +32,10 @@
         "*.cabal",
         "stack.yaml",
         "cabal.project",
-        "package.yaml"
+        "package.yaml",
+        "hie.yaml"
       ],
-      "filetypes": ["hs", "lhs", "haskell"],
+      "filetypes": ["haskell", "lhaskell"],
       "initializationOptions": {
         "haskell": {}
       }
