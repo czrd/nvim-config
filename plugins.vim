@@ -1,6 +1,4 @@
 call plug#begin()
-Plug 'Rigellute/shades-of-purple.vim'
-Plug 'arzg/vim-colors-xcode'
 Plug 'scrooloose/nerdtree'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -20,7 +18,11 @@ Plug 'jaxbot/semantic-highlight.vim'
 Plug 'dhruvasagar/vim-zoom'
 Plug 'tpope/vim-commentary'
 Plug 'voldikss/vim-floaterm'
-
 Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
 Plug 'yuttie/comfortable-motion.vim'
+
+" color themes
+Plug 'arzg/vim-colors-xcode'
+Plug 'sainnhe/gruvbox-material'
+Plug 'doums/darcula'
 call plug#end()
