@@ -22,6 +22,5 @@ Plug 'itchyny/lightline.vim'
 
 " color themes
 Plug 'arzg/vim-colors-xcode'
-Plug 'sainnhe/gruvbox-material'
 Plug 'doums/darcula'
 call plug#end()
