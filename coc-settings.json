@@ -14,17 +14,13 @@
     "html"
   ],
   "snippets.autoTrigger": true,
-  "prettier.eslintIntegration": true,
-  "eslint.enable": true,
-  "eslint.autoFix": true,
-  "eslint.filetypes": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
   "go.disable": { "workspaceFolders": false },
   "languageserver": {
+    "ocaml-lsp": {
+      "command": "opam",
+      "args": ["config", "exec", "--", "ocamllsp"],
+      "filetypes": ["ocaml", "reason"]
+    },
     "haskell": {
       "command": "haskell-language-server-wrapper",
       "args": ["--lsp"],
