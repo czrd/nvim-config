@@ -20,6 +20,8 @@ Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --f
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'itchyny/lightline.vim'
 
+Plug 'josa42/vim-lightline-coc'
+
 " color themes
 Plug 'arzg/vim-colors-xcode'
 Plug 'doums/darcula'
