@@ -28,4 +28,6 @@ Plug 'doums/darcula'
 Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 Plug 'ayu-theme/ayu-vim'
 Plug 'morhetz/gruvbox'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'joshdick/onedark.vim'
 call plug#end()

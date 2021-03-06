@@ -25,6 +25,15 @@
 "colorscheme ayu
 
 " gruvbox
-set background=dark    " Setting dark mode
+"set background=dark    " Setting dark mode
 "set background=light   " Setting light mode
-colorscheme gruvbox
+"colorscheme gruvbox
+
+" onehalf
+" colorscheme onehalfdark
+
+" onedark
+let g:onedark_color_overrides = {
+\ "black": {"gui": "#1E2127", "cterm": "235", "cterm16": "0" },
+\}
+colorscheme onedark
