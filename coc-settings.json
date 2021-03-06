@@ -1,17 +1,19 @@
 {
   "coc.preferences.formatOnSaveFiletypes": [
+    "html",
+    "css",
+    "json",
     "python",
     "go",
-    "json",
     "haskell",
+    "clojure",
     "elixir",
-    "vue",
     "javascript",
-    "javascriptreact",
     "typescript",
+    "javascriptreact",
     "typescriptreact",
-    "svelte",
-    "html"
+    "vue",
+    "svelte"
   ],
   "snippets.autoTrigger": true,
   "go.disable": { "workspaceFolders": false },

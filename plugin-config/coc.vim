@@ -22,7 +22,8 @@ let g:coc_global_extensions = [
       \'coc-elixir',
       \'coc-go',
       \'coc-python',
-      \'coc-svelte'
+      \'coc-svelte',
+      \'coc-conjure'
       \]
 
 " TextEdit might fail if hidden is not set.

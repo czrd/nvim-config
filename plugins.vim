@@ -9,7 +9,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'gcmt/taboo.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tc50cal/vim-terminal'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 Plug 'sheerun/vim-polyglot'
 Plug 'jaxbot/semantic-highlight.vim'
@@ -19,10 +19,13 @@ Plug 'voldikss/vim-floaterm'
 Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'itchyny/lightline.vim'
-
 Plug 'josa42/vim-lightline-coc'
+Plug 'mkitt/tabline.vim'
 
 " color themes
 Plug 'arzg/vim-colors-xcode'
 Plug 'doums/darcula'
+Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
+Plug 'ayu-theme/ayu-vim'
+Plug 'morhetz/gruvbox'
 call plug#end()
