@@ -33,7 +33,10 @@
 " colorscheme onehalfdark
 
 " onedark
-let g:onedark_color_overrides = {
-\ "black": {"gui": "#1E2127", "cterm": "235", "cterm16": "0" },
-\}
-colorscheme onedark
+"let g:onedark_color_overrides = {
+"\ "black": {"gui": "#1E2127", "cterm": "235", "cterm16": "0" },
+"\}
+"colorscheme onedark
+
+" challenger_deep
+colorscheme challenger_deep

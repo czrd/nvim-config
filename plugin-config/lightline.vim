@@ -2,8 +2,9 @@
 "	\ 'colorscheme': 'spaceduck',
 " \ 'colorscheme': 'gruvbox',
 " \ 'colorscheme': 'onehalfdark',
+" \ 'colorscheme': 'onedark',
 let g:lightline = {
- \ 'colorscheme': 'onedark',
+ \ 'colorscheme': 'challenger_deep',
  \ 'active': {
  \   'left': [ [ 'mode', 'paste' ],
  \             [ 'coc_info', 'coc_hints', 'coc_errors', 'coc_warnings', 'coc_ok' ],

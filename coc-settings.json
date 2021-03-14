@@ -8,6 +8,7 @@
     "haskell",
     "clojure",
     "elixir",
+    "fsharp",
     "javascript",
     "typescript",
     "javascriptreact",

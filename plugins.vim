@@ -30,4 +30,5 @@ Plug 'ayu-theme/ayu-vim'
 Plug 'morhetz/gruvbox'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'joshdick/onedark.vim'
+Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 call plug#end()
