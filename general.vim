@@ -1,10 +1,13 @@
 set number relativenumber
 set cursorline
 set termguicolors
+
 syntax on
 syntax enable
-let mapleader = "\<Space>"
+
+let mapleader = ","
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
 set winblend=20
 set pumblend=20
 

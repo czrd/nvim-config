@@ -25,9 +25,14 @@
 "colorscheme ayu
 
 " gruvbox
+"colorscheme gruvbox
 "set background=dark    " Setting dark mode
 "set background=light   " Setting light mode
-"colorscheme gruvbox
+
+" gruvbox-material
+colorscheme gruvbox-material
+let g:gruvbox_material_background = 'hard'
+set background=dark
 
 " onehalf
 " colorscheme onehalfdark
@@ -39,4 +44,4 @@
 "colorscheme onedark
 
 " challenger_deep
-colorscheme challenger_deep
+"colorscheme challenger_deep
