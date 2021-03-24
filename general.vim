@@ -1,21 +1,13 @@
-set number relativenumber
-set cursorline
-set termguicolors
-
+set nu rnu
+set cul
+set tgc
 syntax on
-syntax enable
 
 let mapleader = ","
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
-set winblend=20
-set pumblend=20
-
-set expandtab
-set smarttab
-set shiftwidth=2
-set softtabstop=2
-set tabstop=2
+set winbl=20 pumbl=20
+set et st sw=2 st=2 ts=2
 
 noremap <C-w>+ :resize +5<CR>
 noremap <C-w>- :resize -5<CR>
