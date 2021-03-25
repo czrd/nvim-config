@@ -6,8 +6,8 @@ syntax on
 let mapleader = ","
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
-set winbl=20 pumbl=20
-set et st sw=2 st=2 ts=2
+set winbl=20 pb=20
+set et sta sw=2 sts=2 ts=2
 
 noremap <C-w>+ :resize +5<CR>
 noremap <C-w>- :resize -5<CR>
