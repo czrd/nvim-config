@@ -7,6 +7,7 @@ let g:coc_global_extensions = [
       \'coc-git',
       \'coc-gitignore',
       \'coc-terminal',
+      \'coc-highlight',
       \'coc-docker',
       \'coc-yaml',
       \'coc-json',
@@ -187,3 +188,6 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
 " sortImports in python file
 autocmd BufWritePre *.py :CocCommand python.sortImports
+
+" highlight color
+hi CocHighlightText ctermfg=231 guifg=#ffffff ctermbg=161 guibg=#d7005f
