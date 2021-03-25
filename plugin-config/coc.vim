@@ -2,7 +2,6 @@
 " coc extensions
 " ========================================================
 let g:coc_global_extensions = [
-      \'coc-marketplace',
       \'coc-snippets',
       \'coc-git',
       \'coc-gitignore',
