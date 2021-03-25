@@ -1,11 +1,5 @@
-" \ 'colorscheme': 'darculaOriginal',
-"	\ 'colorscheme': 'spaceduck',
-" \ 'colorscheme': 'gruvbox',
-" \ 'colorscheme': 'onehalfdark',
-" \ 'colorscheme': 'onedark',
-" \ 'colorscheme': 'challenger_deep',
 let g:lightline = {
- \ 'colorscheme': 'gruvbox_material',
+ \ 'colorscheme': 'gruvbox',
  \ 'active': {
  \   'left': [ [ 'mode', 'paste' ],
  \             [ 'coc_info', 'coc_hints', 'coc_errors', 'coc_warnings', 'coc_ok' ],
