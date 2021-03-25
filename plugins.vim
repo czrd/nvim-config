@@ -17,9 +17,10 @@ Plug 'itchyny/lightline.vim'
 Plug 'josa42/vim-lightline-coc'
 Plug 'gcmt/taboo.vim'
 
+" terminal
 Plug 'voldikss/vim-floaterm'
 
-" autocomplete
+" autocomplete/lsp
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
 
