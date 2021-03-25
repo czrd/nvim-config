@@ -8,12 +8,12 @@
 
 ### Setup
 
-```
+```sh
 mkdir -p ~/.config
 cd ~/.config
 
 git clone https://github.com/czrd/nvim-config.git nvim
 cd nvim
 
-nvim --headless +PlugInstall +qall
+nvim +silent +VimEnter +PlugInstall +qall
 ```
