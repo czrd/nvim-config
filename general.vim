@@ -1,13 +1,14 @@
+syntax on
+
 set nu rnu
 set cul
 set tgc
-syntax on
+set winbl=20 pb=20
+set et sta sw=2 sts=2 ts=2
+set clipboard=unnamedplus
 
 let mapleader = ","
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-
-set winbl=20 pb=20
-set et sta sw=2 sts=2 ts=2
 
 noremap <C-w>+ :resize +5<CR>
 noremap <C-w>- :resize -5<CR>
