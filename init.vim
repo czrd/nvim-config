@@ -16,3 +16,4 @@ source $HOME/.config/nvim/plugin-config/floaterm.vim
 source $HOME/.config/nvim/plugin-config/lightline.vim
 source $HOME/.config/nvim/plugin-config/comfortable-motion.vim
 source $HOME/.config/nvim/plugin-config/taboo.vim
+source $HOME/.config/nvim/plugin-config/fzf.vim

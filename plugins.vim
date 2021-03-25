@@ -3,6 +3,8 @@ call plug#begin()
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'majutsushi/tagbar'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " code navigation
 Plug 'yuttie/comfortable-motion.vim'
