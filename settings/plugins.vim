@@ -10,6 +10,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
+Plug 'craigemery/vim-autotag'
 
 " git
 Plug 'tpope/vim-fugitive'
