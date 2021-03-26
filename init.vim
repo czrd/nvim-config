@@ -1,18 +1,18 @@
 " plugins
-source $HOME/.config/nvim/plugins.vim
+source $HOME/.config/nvim/settings/plugins.vim
 
 " general settings
-source $HOME/.config/nvim/general.vim
+source $HOME/.config/nvim/settings/general.vim
 
 " color settings
-source $HOME/.config/nvim/color.vim
+source $HOME/.config/nvim/settings/color.vim
 
 " plugin settings
-source $HOME/.config/nvim/plugin-config/nerdtree.vim
-source $HOME/.config/nvim/plugin-config/tagbar.vim
-source $HOME/.config/nvim/plugin-config/coc.vim
-source $HOME/.config/nvim/plugin-config/floaterm.vim
-source $HOME/.config/nvim/plugin-config/lightline.vim
-source $HOME/.config/nvim/plugin-config/comfortable-motion.vim
-source $HOME/.config/nvim/plugin-config/taboo.vim
-source $HOME/.config/nvim/plugin-config/fzf.vim
+source $HOME/.config/nvim/settings/plugins/nerdtree.vim
+source $HOME/.config/nvim/settings/plugins/tagbar.vim
+source $HOME/.config/nvim/settings/plugins/coc.vim
+source $HOME/.config/nvim/settings/plugins/floaterm.vim
+source $HOME/.config/nvim/settings/plugins/lightline.vim
+source $HOME/.config/nvim/settings/plugins/comfortable-motion.vim
+source $HOME/.config/nvim/settings/plugins/taboo.vim
+source $HOME/.config/nvim/settings/plugins/fzf.vim
