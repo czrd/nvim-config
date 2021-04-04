@@ -27,7 +27,8 @@ let g:coc_global_extensions = [
       \'coc-python',
       \'coc-svelte',
       \'coc-conjure',
-      \'coc-fsharp'
+      \'coc-fsharp',
+      \'coc-rls'
       \]
 
 
