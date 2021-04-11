@@ -14,7 +14,8 @@
     "javascriptreact",
     "typescriptreact",
     "vue",
-    "svelte"
+    "svelte",
+    "rust"
   ],
   "snippets.autoTrigger": true,
   "go.disable": { "workspaceFolders": false },
